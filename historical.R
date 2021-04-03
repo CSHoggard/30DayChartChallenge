@@ -39,4 +39,4 @@ ggplot(fleetwood_clean, aes(album_release_year, count, colour = factor)) +
         axis.title.y = element_text(size = 12, margin = margin(0,20,0,0)),
         legend.position = "none")
 
-ggsave("30DayChartChallenge/Historic.png", plot = last_plot(), width = 300, height = 140, units = "mm", dpi = 400)  
+ggsave("30DayChartChallenge/historical.png", plot = last_plot(), width = 300, height = 140, units = "mm", dpi = 400)  
