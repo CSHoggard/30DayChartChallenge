@@ -41,9 +41,9 @@ ggplot(img_sample) +
   scale_color_identity() +
   scale_y_reverse() +
   theme_void() +
-  theme(plot.caption = element_markdown(family = "Goudy Old Style", hjust = 0.5, size = 19, margin = margin(20,0,10,0)),
+  theme(plot.caption = element_markdown(family = "Goudy Old Style", hjust = 0.5, size = 24, margin = margin(20,0,10,0)),
         plot.margin = margin(20,20,20,20),
         plot.background = element_rect(fill = NA, colour = 'grey40', size = 2))
 
-ggsave("Abstract.png", plot = last_plot(), units = "mm", dpi = 400)
+ggsave("abstract.png", plot = last_plot(), height = 264, width = 268, units = "mm", dpi = 600)
 
