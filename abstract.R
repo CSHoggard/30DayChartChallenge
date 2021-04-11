@@ -6,7 +6,10 @@ library(here)
 library(extrafont)
 library(ggtext)
 
-img <- load.image("abstract_image.jpg")
+# font: https://www.theleagueofmoveabletype.com/goudy-bookletter-1911
+# (requires installing and importing through the extrafont::import_font() function)
+
+img <- load.image("https://github.com/CSHoggard/30DayChartChallenge/raw/main/abstract_image.jpg")
 
 img_df <- as.data.frame(img)
 
